@@ -9,6 +9,7 @@ while True:
             pass
         # click detected
         left_light = not left_light #negate
+        print("left_light:",left_light)
 
 
 
@@ -17,4 +18,5 @@ while True:
             pass
         #click detected
         right_light = not right_light #negate
+        print("right_light:",right_light)
 
