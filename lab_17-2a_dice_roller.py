@@ -11,7 +11,7 @@ while True:
         while(cp.button_b==True):
             pass
         # click detected
-        roll = random.randint(0,5)
+        roll = random.randint(1,6)
         print("You rolled:",roll)
         
         #reset 
@@ -19,6 +19,6 @@ while True:
             cp.pixels[i] =(0,0,0)
         
         #light up
-        for i in range(roll+1):
+        for i in range(roll):
             cp.pixels[i] =(0,0,255)
             time.sleep(0.05)
