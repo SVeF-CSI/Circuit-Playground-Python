@@ -1,6 +1,6 @@
 from adafruit_circuitplayground import cp
 import random
-import time
+
 
 cp.pixels.brightness=0.1
 
@@ -21,4 +21,4 @@ while True:
         #light up
         for i in range(roll):
             cp.pixels[i] =(0,0,255)
-            time.sleep(0.05)
+
