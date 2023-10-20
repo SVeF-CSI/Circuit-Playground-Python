@@ -11,7 +11,7 @@ while True:
         #spin fidget
         position = 0
         sleeptime = 0.01
-        for i in range(30):
+        for i in range(25):
             cp.pixels[position] = (164, 50, 168)
             time.sleep(sleeptime)
             cp.pixels[position] = (0, 0, 0)
